@@ -1,0 +1,134 @@
+.system {
+  margin-bottom: 17px;
+}
+
+.system__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.system__left {
+  max-width: 660px;
+}
+
+.system__right {
+  max-width: 550px;
+  min-height: 568px;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.system__title {
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 70px;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.system__subtitle {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  opacity: 0;
+  transition: 1s ease;
+
+  span {
+    display: block;
+  }
+}
+
+.system__btns {
+  margin-top: 52px;
+  opacity: 0;
+  transition: 1.5s ease;
+}
+
+.system__btn {
+  height: 48px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #8d96a4;
+}
+
+.animate-fadeIn {
+  opacity: 1;
+}
+
+.system__btn-reg {
+  width: 164px;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #ff5b22;
+    border: 1px solid #ff5b22;
+  }
+}
+
+.system__btn-propose {
+  width: 262px;
+  color: #ffffff;
+  background-color: #ff5b22;
+  border: 1px solid #ff5b22;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #e93d02;
+    border: 1px solid #e93d02;
+  }
+}
+
+.system__bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.system__bot-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #ffffff;
+  width: 100%;
+  max-width: 660px;
+  text-align: center;
+  // border-top: 2px solid #ff5b22;
+
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.system__bot-link {
+  margin-top: 25px;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ff5b22;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/icons/top-right.svg);
+    width: 25px;
+    height: 25px;
+    top: 2px;
+    right: -27px;
+  }
+}
+
+.system__bot-descr {
+  max-width: 335px;
+  line-height: 23px;
+}

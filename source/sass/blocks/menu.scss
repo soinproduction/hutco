@@ -1,0 +1,62 @@
+.menu__hover {
+  height: 0;
+  min-width: 100%;
+  position: fixed;
+  z-index: 10;
+  overflow: hidden;
+  left: 0;
+  background-color: #ffffff;
+  opacity: 0;
+}
+
+.menu {
+  position: relative;
+  max-width: 395px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  padding-bottom: 50px;
+}
+
+.menu__blue {
+  background-color: #edf7ff;
+}
+
+.menu__erip {
+  left: 26%;
+  padding-left: 15px;
+}
+
+.menu__epos {
+  left: 31%;
+  padding-left: 11px;
+}
+
+.menu__services {
+  left: 36%;
+  padding-left: 11px;
+}
+
+.menu__contacts {
+  left: 41%;
+  padding-left: 16px;
+}
+
+.menu__list {
+  padding: 3px 0;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: #ff5b22;
+  }
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+.menu__list-link {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}

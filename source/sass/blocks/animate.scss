@@ -1,0 +1,35 @@
+.animate {
+  padding: 92px 0 79px;
+  overflow: hidden;
+}
+
+.animate__sec-inner {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+.animate__sec-wrapper {
+  display: flex;
+  align-items: center;
+  flex: none;
+}
+
+.animate__img {
+  width: 70px;
+  height: 70px;
+  margin: 0 40px;
+}
+
+.animate__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 500;
+}

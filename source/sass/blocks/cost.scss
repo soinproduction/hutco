@@ -1,0 +1,87 @@
+.cost__inner {
+  margin: 148px 0 161px;
+}
+
+.cost__head {
+  display: flex;
+}
+
+.cost__title {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.cost__subtitle {
+  font-size: 22px;
+  line-height: 28px;
+  max-width: 660px;
+}
+
+.cost__info {
+  margin-top: 70px;
+  display: flex;
+}
+
+.cost__item {
+  max-width: 330px;
+  width: 100%;
+  min-height: 221px;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.cost__price {
+  font-size: 90px;
+  line-height: 90px;
+  color: #ff5b22;
+  position: relative;
+
+  &::before {
+    content: "BYN";
+    position: absolute;
+    top: 0;
+    left: 58%;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #cbd7df;
+  }
+}
+
+.cost__percent {
+  font-size: 90px;
+  line-height: 90px;
+  color: #ff5b22;
+  position: relative;
+
+  &::before {
+    content: "%";
+    position: absolute;
+    top: 0;
+    left: 55%;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #cbd7df;
+  }
+}
+
+.cost__details {
+  margin-top: 8px;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 500;
+}
+
+.cost__ps {
+  margin-top: 7px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #5b5e67;
+}

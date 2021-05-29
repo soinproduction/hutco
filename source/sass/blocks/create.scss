@@ -1,0 +1,23 @@
+.create__inner {
+  margin: 153px 0 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.create__right {
+  max-width: 880px;
+  width: 100%;
+}
+
+.create__text {
+  line-height: 30px;
+  color: #282828;
+  max-width: 400px;
+}
+
+.create__text-bold {
+  margin-top: 37px;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 500;
+}
